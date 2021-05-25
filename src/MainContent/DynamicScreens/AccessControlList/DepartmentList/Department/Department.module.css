@@ -1,20 +1,20 @@
-.TeamsList_List_Content {
+.Department_List_Content {
   display: flex;
   padding: 1rem 0;
   border: 1px solid rgba(128, 128, 128, 0.308);
 }
 
-.TeamsList_List_Content:hover {
+.Department_List_Content:hover {
   cursor: pointer;
   border: 1px solid rgba(128, 128, 128, 0.746);
 }
 
-.TeamsList_List_Content_RadioButton {
+.Department_List_Content_RadioButton {
   flex-grow: 0.2;
   padding-left: 1rem;
 }
 
-.TeamsList_List_Content_Items {
+.Department_List_Content_Items {
   display: flex;
   flex-grow: 7;
   justify-content: space-between;
@@ -27,11 +27,11 @@
   letter-spacing: 0.2px;
 }
 
-.TeamsList_List_Content_Items_AccessLevel {
+.Department_List_Content_Items_AccessLevel {
   width: 150px;
 }
 
-.TeamsList_List_Content_Items button {
+.Department_List_Content_Items button {
   display: flex;
   border-radius: 20px;
   font-family: Roboto;
@@ -49,28 +49,28 @@
   width: 190px;
 }
 
-.TeamsList_List_Content_Items_NumOfMembers {
+.Department_List_Content_Items_NumOfMembers {
   margin-left: -4rem;
 }
 
-.TeamsList_List_Content_Items_LastUpdated {
+.Department_List_Content_Items_LastUpdated {
   margin-left: -2rem;
 }
 
-.TeamsList_List_Content_Items_ButtonAllAccess {
+.Department_List_Content_Items_ButtonAllAccess {
   color: #27ae60;
   background: rgba(39, 174, 96, 0.3);
   border: 1px solid #27ae60;
   padding-left: 4rem !important;
 }
 
-.TeamsList_List_Content_Items_ButtonRestrictedAccess {
+.Department_List_Content_Items_ButtonRestrictedAccess {
   background: rgba(255, 8, 8, 0.3);
   border: 1px solid #ff0808;
   border-radius: 20px;
 }
 
-.TeamsList_List_Content_LastItem {
+.Department_List_Content_LastItem {
   text-align: center;
   flex-grow: 1;
 }

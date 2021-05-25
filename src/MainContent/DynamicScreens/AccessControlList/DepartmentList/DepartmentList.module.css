@@ -1,13 +1,13 @@
-.TeamsList {
+.DepartmentList {
   /* border: 1px solid black; */
-  margin: 2rem 5rem;
+  margin: -1rem 0;
 }
 
-.TeamsList_FunctionBar {
+.DepartmentList_FunctionBar {
   display: flex;
 }
 
-.TeamsList_FunctionBar_AddButton {
+.DepartmentList_FunctionBar_AddButton {
   border-radius: 5px;
   background-color: #673ab7;
   font-family: Roboto;
@@ -24,24 +24,24 @@
   padding-right: 2.8rem;
 }
 
-.TeamsList_FunctionBar_AddButton:hover {
+.DepartmentList_FunctionBar_AddButton:hover {
   cursor: pointer;
 }
 
-.TeamsList_FunctionBar_AddButton_Plus {
+.DepartmentList_FunctionBar_AddButton_Plus {
   font-size: 32px;
   padding-right: 1rem;
 }
 
-.TeamsList_FunctionBar_Icon {
+.DepartmentList_FunctionBar_Icon {
   padding-left: 2rem;
 }
 
-.TeamsList_FunctionBar_Icon:hover {
+.DepartmentList_FunctionBar_Icon:hover {
   cursor: pointer;
 }
 
-.TeamsList_List {
+.DepartmentList_List {
   /* border: 2px solid black; */
   margin-top: 2rem;
   display: flex;
@@ -51,16 +51,16 @@
   -moz-box-shadow: 1px 1px 6px -1px rgba(0, 0, 0, 0.69);
 }
 
-.TeamsList_List_Header {
+.DepartmentList_List_Header {
   display: flex;
   background-color: #f2f2f2;
 }
 
-.TeamsList_List_Header_RadioButton {
+.DepartmentList_List_Header_RadioButton {
   flex-grow: 0.2;
 }
 
-.TeamsList_List_Header_Items {
+.DepartmentList_List_Header_Items {
   display: flex;
   flex-direction: row;
   flex-grow: 7;
@@ -75,15 +75,6 @@
   letter-spacing: 0.2px;
 }
 
-.TeamsList_List_Header_Items_Department {
-  margin-left: -1rem;
-}
-
-.TeamsList_List_Header_Items_AccessLevel {
-  margin-left: -1rem;
-  margin-right: 1.5rem;
-}
-
-.TeamsList_List_Header_LastItem {
+.DepartmentList_List_Header_LastItem {
   flex-grow: 1;
 }

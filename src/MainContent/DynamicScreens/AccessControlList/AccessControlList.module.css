@@ -1,0 +1,29 @@
+.AccessControlList {
+  /* border: 2px solid black; */
+  margin: 2rem 4rem;
+}
+
+.AccessControlList_TitleBar {
+  display: flex;
+}
+
+.AccessControlList_TitleBar > img {
+  margin: 0 1rem;
+}
+
+.AccessControlList_TitleBar > p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #673ab7;
+  margin-right: 1.2rem;
+}
+
+.AccessControlList_Content {
+  /* border: 2px solid black; */
+  margin: 0 3.5rem;
+}

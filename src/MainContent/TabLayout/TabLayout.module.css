@@ -27,12 +27,23 @@
 .TabLayout_TabList_Tab_Title {
   font-family: Roboto;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   display: flex;
   align-items: center;
   color: #333333;
+}
+
+.TabLayout_TabList_Tab_Title_Selected {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #673ab7;
 }
 
 .TabLayout_TabList_Tab_Selected {
@@ -54,6 +65,7 @@
 .TabLayout_TabList_Tab_VerticalBreak {
   border: 1px solid #cfd3da;
   margin: 0.5rem 0;
+  padding: 0.8rem 0;
   margin-left: 1rem;
 }
 

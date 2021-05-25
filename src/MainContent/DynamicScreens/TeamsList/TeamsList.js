@@ -29,10 +29,12 @@ export default function TeamsList() {
           <div className={classes.TeamsList_List_Header_RadioButton}></div>
           <div className={classes.TeamsList_List_Header_Items}>
             <div>
-              <p>Access Level</p>
+              <p className={classes.TeamsList_List_Header_Items_Department}>
+                Department/Role Name
+              </p>
             </div>
-            <div>
-              <p>Department/Role Name</p>
+            <div className={classes.TeamsList_List_Header_Items_AccessLevel}>
+              <p>Access Level</p>
             </div>
             <div>
               <p>No of members</p>
