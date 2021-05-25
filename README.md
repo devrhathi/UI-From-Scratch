@@ -13,6 +13,5 @@
     		---dynamic screens
     			---screen 1
     			---screen 2
-    			---screen 3
 
     Assets for SVGs.
