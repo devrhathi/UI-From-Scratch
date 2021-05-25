@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
 /* this is the container for sidebar and main content */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 .App {
   width: 100vw;
   height: 100vh;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;

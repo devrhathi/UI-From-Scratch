@@ -1,0 +1,20 @@
+.ProfileInfo {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+.ProfileInfo_ProfileIcon {
+  padding: 0.5rem 0.8rem;
+}
+
+.ProfileInfo_ProfileName {
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}

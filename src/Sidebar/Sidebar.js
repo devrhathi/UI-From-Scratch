@@ -37,7 +37,9 @@ export default function Sidebar() {
             className={classes.Sidebar_Content_Item_Logo}
             alt="icon"
           />
-          <p className={classes.Sidebar_Content_Item_Title}>Access Control</p>
+          <p className={classes.Sidebar_Content_Item_Title_Selected}>
+            Access Control
+          </p>
         </div>
       </div>
     </div>
