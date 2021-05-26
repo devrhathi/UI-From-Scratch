@@ -9,18 +9,18 @@ export default function ProfileInfo() {
       <img
         src={profileIcon}
         alt="profileIcon"
-        class={classes.ProfileInfo_ProfileIcon}
+        className={classes.ProfileInfo_ProfileIcon}
       />
       <p className={classes.ProfileInfo_ProfileName}>Dev</p>
       <img
         src={notificationIcon}
         alt="profileIcon"
-        class={classes.ProfileInfo_ProfileIcon}
+        className={classes.ProfileInfo_ProfileIcon}
       />
       <img
         src={helpIcon}
         alt="profileIcon"
-        class={classes.ProfileInfo_ProfileIcon}
+        className={classes.ProfileInfo_ProfileIcon}
       />
     </div>
   );

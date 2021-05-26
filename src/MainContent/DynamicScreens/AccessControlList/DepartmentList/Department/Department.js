@@ -34,20 +34,20 @@ export default function Department(props) {
       <div className={classes.Department_List_Content_RadioButton}>
         <img src={circlePlusIcon} alt="icon" />
       </div>
-      <div className={classes.Department_List_Content_Items}>
-        <p className={classes.Department_List_Content_Items_DepartmentName}>
-          {props.deptName}
-        </p>
-        <div className={classes.Department_List_Content_Items_ButtonContainer}>
-          <button className={buttonClass}>{buttonText}</button>
-        </div>
-        <div className={classes.Department_List_Content_Summary}>
-          <p>{props.summary}</p>
-        </div>
-        <p className={classes.Department_List_Content_Items_LastUpdated}>
-          {props.lastUpdated}
-        </p>
+      <div className={classes.Department_List_Content_Items_DepartmentName}>
+        <p>{props.deptName}</p>
       </div>
+
+      <div className={classes.Department_List_Content_Items_ButtonContainer}>
+        <button className={buttonClass}>{buttonText}</button>
+      </div>
+      <div className={classes.Department_List_Content_Summary}>
+        <p>{props.summary}</p>
+      </div>
+      <div className={classes.Department_List_Content_Items_LastUpdated}>
+        <p>{props.lastUpdated}</p>
+      </div>
+
       <div className={classes.Department_List_Content_LastItem}>
         <img src={icon} alt="eyeIcon" />
       </div>
