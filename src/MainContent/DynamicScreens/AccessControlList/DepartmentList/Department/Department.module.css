@@ -2,6 +2,68 @@
   display: flex;
   padding: 1rem 0;
   border: 1px solid rgba(128, 128, 128, 0.308);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.Department_List_Content_RadioButton {
+  padding-left: 1rem;
+  margin-right: -1rem;
+}
+
+.Department_List_Content_Items {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 0 3rem;
+}
+
+.Department_List_Content_Items_DepartmentName {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  letter-spacing: 0.2px;
+  color: #000000;
+  min-width: 250px;
+}
+
+.Department_List_Content_Items_ButtonContainer {
+  text-align: center;
+  min-width: 300px;
+  margin-left: 4.5rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.Department_List_Content_Items_ButtonContainer button {
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+}
+
+.Department_List_Content_Summary > p {
+  text-align: center;
+  min-width: 300px;
+  font-size: 14px;
+  padding-top: 0.5rem;
+  margin-left: 2.5rem;
+}
+
+.Department_List_Content_Items_LastUpdated {
+  margin-left: 9.2rem;
+}
+
+.Department_List_Content_LastItem {
+  text-align: center;
+  flex-grow: 1;
 }
 
 .Department_List_Content:hover {
@@ -9,16 +71,39 @@
   border: 1px solid rgba(128, 128, 128, 0.746);
 }
 
+.Department_List_Content_Items_ButtonNoAccess {
+  background: #f2f2f2;
+  border: 1px solid #bdbdbd;
+  color: #bdbdbd;
+}
+
+.Department_List_Content_Items_ButtonAllAccess {
+  color: #27ae60;
+  background: rgba(39, 174, 96, 0.3);
+  border: 1px solid #27ae60;
+}
+
+.Department_List_Content_Items_ButtonRestrictedAccess {
+  background: rgba(255, 8, 8, 0.3);
+  border: 1px solid #ff0808;
+  border-radius: 20px;
+}
+
+/* .Department_List_Content:hover {
+  cursor: pointer;
+  border: 1px solid rgba(128, 128, 128, 0.746);
+}
+
 .Department_List_Content_RadioButton {
   flex-grow: 0.2;
-  padding-left: 1rem;
+  padding-left: 18px;
+  width: 40px;
 }
 
 .Department_List_Content_Items {
   display: flex;
   flex-grow: 7;
   justify-content: space-between;
-  /* text properties */
   font-family: Roboto;
   font-style: normal;
   font-weight: 600;
@@ -27,8 +112,13 @@
   letter-spacing: 0.2px;
 }
 
-.Department_List_Content_Items_AccessLevel {
-  width: 150px;
+.Department_List_Content_Items_DepartmentName {
+  min-width: 300px;
+}
+
+.Department_List_Content_Items_ButtonContainer {
+  min-width: 300px;
+  margin: 0 120px;
 }
 
 .Department_List_Content_Items button {
@@ -44,24 +134,30 @@
   text-align: center;
   letter-spacing: 0.2px;
   padding: 0.3rem 2.3rem;
-  margin: -0.2rem 0;
-  margin-left: -9rem;
+  padding-right: 3rem;
+  margin: -0.3rem 0;
   width: 190px;
 }
 
-.Department_List_Content_Items_NumOfMembers {
-  margin-left: -4rem;
+.Department_List_Content_Summary {
+  margin-left: -180px;
+  margin-right: 8rem;
 }
 
 .Department_List_Content_Items_LastUpdated {
-  margin-left: -2rem;
+  margin-left: -13rem;
+}
+
+.Department_List_Content_Items_ButtonNoAccess {
+  background: #f2f2f2;
+  border: 1px solid #bdbdbd;
+  color: #bdbdbd;
 }
 
 .Department_List_Content_Items_ButtonAllAccess {
   color: #27ae60;
   background: rgba(39, 174, 96, 0.3);
   border: 1px solid #27ae60;
-  padding-left: 4rem !important;
 }
 
 .Department_List_Content_Items_ButtonRestrictedAccess {
@@ -73,4 +169,4 @@
 .Department_List_Content_LastItem {
   text-align: center;
   flex-grow: 1;
-}
+} */

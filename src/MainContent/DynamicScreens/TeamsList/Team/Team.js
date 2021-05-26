@@ -1,7 +1,10 @@
 import classes from "./Team.module.css";
 import eyeIcon from "../../../../Assets/TeamsList_Icons/remove_red_eye_24px.svg";
+import { useHistory } from "react-router-dom";
 
 export default function Team(props) {
+  let history = useHistory();
+
   let buttonClass = props.buttonClass;
   let buttonText;
   if (buttonClass) {
@@ -12,8 +15,12 @@ export default function Team(props) {
     buttonText = "Restricted Access";
   }
 
+  const handleTeamClick = () => {
+    history.push("/access_controls");
+  };
+
   return (
-    <div className={classes.TeamsList_List_Content}>
+    <div className={classes.TeamsList_List_Content} onClick={handleTeamClick}>
       <div className={classes.TeamsList_List_Content_RadioButton}>
         <input type="radio" name="cb" />
       </div>

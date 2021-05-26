@@ -20,10 +20,9 @@ export default function MainContent() {
         sync={1}
         syncIcon={syncIcon}
       />
-      {/* <TeamsList /> */}
-      <AccessControlList />
       <Router>
         <Route path="/access_controls" component={AccessControlList} />
+        <Route exact path="/" component={TeamsList} />
       </Router>
     </div>
   );

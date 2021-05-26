@@ -26,10 +26,51 @@ export default function DepartmentList() {
           </div>
         </div>
         <Department
-          accessLevel="Super Admin"
-          buttonClass={1}
-          numOfMembers={1}
+          deptName="Super Admin"
+          buttonClass={2}
+          summary={"View | Create | Edit | Delete"}
           lastUpdated={"1 min ago"}
+          icon={1}
+        />
+
+        <Department
+          deptName="Bidding"
+          buttonClass={0}
+          summary={"-"}
+          lastUpdated={"1 min ago"}
+          icon={0}
+        />
+
+        <Department
+          deptName="Vendor Portal"
+          buttonClass={1}
+          summary={"View | Create"}
+          lastUpdated={"1 min ago"}
+          icon={1}
+        />
+
+        <Department
+          deptName="Purchase Order/Work Order"
+          buttonClass={1}
+          summary={"View | Create"}
+          lastUpdated={"1 min ago"}
+          icon={1}
+        />
+
+        <Department
+          deptName="Organisation Profile"
+          buttonClass={2}
+          summary={"View | Create | Edit | Delete"}
+          lastUpdated={"1 min ago"}
+          icon={1}
+        />
+
+        <Department
+          deptName="Permission & Access Control"
+          buttonClass={0}
+          summary={"-"}
+          lastUpdated={"1 min ago"}
+          icon={0}
         />
       </div>
     </div>
