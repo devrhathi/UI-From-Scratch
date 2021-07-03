@@ -1,4 +1,3 @@
-# ABM Internship Assignment,
 ### By Dev Hathi
 
 ##Demo :
